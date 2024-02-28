@@ -17,7 +17,7 @@ export default function WishList() {
       }
     })
     console.log(data)
-    setWishList(data?.data)
+    setWishList(data.data)
   }
   useEffect(()=>{
     getLoggedWishList()

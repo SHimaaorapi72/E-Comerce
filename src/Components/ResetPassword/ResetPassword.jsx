@@ -53,9 +53,9 @@ async function resetPass(values){
       })
      
   return (
-    <div className='content-container'>
+    <div >
     <div className='w-75 m-auto my-4'>
-      <h2 className='text-center'>Reset password</h2>
+      <h2 className='text-center content-container'>Reset password</h2>
       <form onSubmit={formik.handleSubmit}>
  
         <label htmlFor="email">Email:</label>

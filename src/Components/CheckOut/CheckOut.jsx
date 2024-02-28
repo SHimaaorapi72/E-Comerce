@@ -11,7 +11,7 @@ let navigate =useNavigate()
 
 let validationschema = Yup.object({
   name: Yup.string().required('name is required').min(3 , 'minmum length is 3 chars').max(10 ,'max length is 10 chars'),
-  phone:Yup.string().required('password is required').matches(/^(\+20|0020)?1[0125][0-9]{8}$/ ,'enter a valid phone '),
+  phone:Yup.string().required('password is required').matches(/^(\+201|01|00201)[0-2,5]{1}[0-9]{8}$/ ,'enter a valid phone '),
   details:Yup.string().required('details is required'),
   city:Yup.string().required('city is required')
   
